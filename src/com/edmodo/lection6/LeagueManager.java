@@ -1,21 +1,23 @@
 package com.edmodo.lection6;
 
+import java.util.ArrayList;
+
 /**
  * Created by pc on 06.12.2016.
  */
-public interface LeagueManager {
+interface LeagueManager {
 
-    public void addPlayer(SoccerPlayer player);
+    void addPlayer(SoccerPlayer player);
 
-    public void removePlayer(SoccerPlayer player);
+    void removePlayer(SoccerPlayer player);
 
-    public SoccerPlayer getPlayer(String name);
+    SoccerPlayer getPlayer(String name);
 
-    public SoccerPlayer[] getAllPlayers();
+    ArrayList<SoccerPlayer> getAllPlayers();
 
-    public SoccerPlayer[] getPlayers(League league);
+    ArrayList<SoccerPlayer> getPlayers(League league);
 
-    public SoccerPlayer[] getPlayers(Country country);
+    ArrayList<SoccerPlayer> getPlayers(Country country);
 
-    public void addPoints(String name, int points);
+    void addPoints(String name, int points);
 }
