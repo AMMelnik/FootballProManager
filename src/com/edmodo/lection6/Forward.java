@@ -3,6 +3,7 @@ package com.edmodo.lection6;
 /**
  * Created by pc on 07.12.2016.
  */
+
 class Forward implements SoccerPlayer {
 
     private String nickName;

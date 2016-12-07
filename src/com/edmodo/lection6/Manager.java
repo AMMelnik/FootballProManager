@@ -7,6 +7,7 @@ import java.util.Comparator;
 /**
  * Created by pc on 07.12.2016.
  */
+
 class Manager implements LeagueManager {
 
     ArrayList<SoccerPlayer> allPlayers = new ArrayList<>();

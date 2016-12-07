@@ -5,6 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by pc on 06.12.2016.
  */
+
 interface LeagueManager {
 
     void addPlayer(SoccerPlayer player);

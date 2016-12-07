@@ -3,6 +3,7 @@ package com.edmodo.lection6;
 /**
  * Created by pc on 06.12.2016.
  */
+
 public interface SoccerPlayer {
 
     //  Получение ФИО игрока

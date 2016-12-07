@@ -6,6 +6,7 @@ import java.util.Scanner;
 /**
  * Created by pc on 07.12.2016.
  */
+
 class Team {
 
     private int playerNumbers;
